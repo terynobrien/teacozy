@@ -31,7 +31,7 @@ body {
 .navigation {
    padding: 10px;
    display: inline-block;
-   margin-right: 20px;
+   margin-right: 30px;
    margin-left: 20px;
    text-decoration: underline;
 }
@@ -111,10 +111,10 @@ a {
   height: 600px;
   background: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
   font-size: 22px;
-  display: flex;
+  display: inline-flex;
   flex-wrap: wrap;
-  align-items: flex-start;
   justify-content: space-around;
+
 }
 
 .location-top-text {
@@ -124,12 +124,14 @@ a {
   justify-content: center;
 }
 
-.location-item {
-  display: flex;
+
+.location-item1,
+.location-item2,
+.location-item3 {
   text-align: center;
   width: 300px;
   height: 300px;
-
+  margin-left: 5px;
 }
 
 .list {
@@ -142,4 +144,23 @@ a {
 .list p,
 .list h3 {
   opacity: 0.9;
+}
+
+.footer {
+  width: 1200px;
+  height: 200px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.copyright {
+  text-align: left;
+  position: relative;
+  left: 20px;
 }
