@@ -1,10 +1,10 @@
 body {
   margin-top: 110px;
   background-color: black;
+  font-family: Helvetica;
 }
 
 .header {
-  font-family: Helvetica;
   font-size: 22px;
   color: seashell;
   background-color: black;
@@ -38,5 +38,34 @@ body {
 a {
  padding: 10px;
  color: seashell;
+
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.top-section {
+  height: 700px;
+  width: 1200px;
+  background: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.top-text {
+  background-color: black;
+  color: white;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
 }
