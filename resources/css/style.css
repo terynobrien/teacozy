@@ -106,5 +106,42 @@ a {
   align-items: center;
   font-size: 22px;
   text-align: center;
+}
 
+.location {
+  width: 1200px;
+  height: 600px;
+  background: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  font-size: 22px;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.location-top-text {
+  width: 1200px;
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+.all-location-items {
+  display: inline-flex;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.location-item1 {
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  margin: 40px;
+
+}
+
+h4 .location-item {
+  background-color: black;
 }
