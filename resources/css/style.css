@@ -46,6 +46,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 
 }
 
@@ -61,11 +62,49 @@ a {
 
 .top-text {
   background-color: black;
+  font-size: 22px;
   color: white;
   width: 1200px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+}
+
+.tea-month {
+  width: 1000px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+
+}
+
+.tea-month-text {
+  font-size: 22px;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tea-item img {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+
+}
+
+.all-tea-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  text-align: center;
 
 }
