@@ -4,34 +4,27 @@ body {
 }
 
 .header {
-  font-family: Verdana;
-  font-size: 14px;
-  font-weight: bold;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
   width: 103%;
   height: 69px;
   display: flex;
   align-items: center;
   flex-direction: row;
-  border-bottom: 1px solid;
+  border-bottom: 1px solid seashell;
   margin-left:-10px;
   position: fixed;
   justify-content: space-between;
   top: 0;
-  background-color: black;
 }
 
 .logo-img {
-  padding: 5px;
+  height: 50px;
   margin-left: 10px;
-  margin-right: 50px;
-}
-
-.logo-text {
-  padding: 5px;
-  color: MediumAquamarine;
-  position: fixed;
-  top: 30px;
-  left: 90px;
+  padding-left: 10px;
 }
 
 .navigation {
@@ -39,9 +32,11 @@ body {
    display: inline-block;
    margin-right: 20px;
    margin-left: 20px;
+   text-decoration: underline;
 }
 
 a {
- color: black;
  padding: 10px;
+ color: seashell;
+
 }
